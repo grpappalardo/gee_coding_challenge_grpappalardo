@@ -1,3 +1,4 @@
 This code masks the globe save New Zealand then runs an NDVI over N.Z. using historical data. NDVI, normalized difference vegetation index, shows vegetation density 
 varying across the year with the seasons.
 The colors on parts of the islands shift from tan to green across the year with an unduluating pattern. The hardest part of writing this code was defining the geometry of the country. I got unstuck from Shadrock's video. After that I was able to use GEE to define a polygon around New Zealand. Then I had to define the region in the visualization parameters, and for ease I made the earlier geometry into a variable with ``var x``. It was a challenging but satisfying assignment.
+![New Zealand NDVI gif](https://earthengine.googleapis.com/v1alpha/projects/earthengine-legacy/videoThumbnails/a55e1cd676d5ab46922dff92d8f11e44-5e7e479b4b0ac8c2d70e28a9e112d6db:getPixels)
