@@ -1,7 +1,7 @@
-# Gloria Pappalardo
-# 10/29/20
-# This code masks the globe save New Zealand then runs an NDVI over the country using historical data. NDVI, normalized difference vegetation index, shows vegetation density 
-# varying across the year with the seasons.
+// Gloria Pappalardo
+// 10/29/20
+// This code masks the globe save New Zealand then runs an NDVI over the country using historical data. NDVI, normalized difference vegetation index, shows vegetation density 
+// varying across the year with the seasons.
 
 var col = ee.ImageCollection('MODIS/006/MOD13A2').select('NDVI');
 // Define a mask to clip the NDVI data by.
